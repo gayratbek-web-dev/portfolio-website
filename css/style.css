@@ -67,11 +67,19 @@
 }
 /* header */
 .header {
-  background: #090a1a;
+  background-image: url(../images/heading_bg.jpg);
   min-height: 570px;
   background-size: cover;
   margin-top: 60px;
   background-attachment: fixed;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .header h6 {
   font-size: 1.1rem;
@@ -98,7 +106,7 @@
 .header-icons a {
   width: 40px;
   height: 40px;
-  background-color: #171b3c;
+  background-color: #1278b9;
   display: flex;
   justify-content: center;
   align-items: center;
