@@ -124,6 +124,11 @@
 .fa-telegram {
   color: white;
 }
+/* avatar */
+.avatar-img {
+  width: 200px;
+  height: 220px;
+}
 
 /* images */
 .box-1 img {
