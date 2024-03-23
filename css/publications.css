@@ -96,6 +96,13 @@
 .title-href {
   font-weight: 200;
 }
+.title-href b {
+  gap: 5px;
+  transition: 0.5s;
+}
+.title-href b:hover {
+  gap: 13px;
+}
 /* title end */
 
 /* books */
