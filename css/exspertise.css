@@ -1,5 +1,6 @@
+@import url(./fonts.css);
 * {
-  font-family: "Poppins";
+  font-family: "RobotoSlab";
   font-weight: 400;
 }
 .navbar-line {
